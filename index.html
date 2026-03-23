@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Travel Planner ✈️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌍 AI Travel Itinerary Generator</h1>
+
+    <input type="text" id="destination" placeholder="Enter destination (Goa, Paris)">
+    
+    <input type="number" id="days" placeholder="Number of days">
+    
+    <select id="type">
+        <option value="">Select travel type</option>
+        <option value="adventure">Adventure</option>
+        <option value="luxury">Luxury</option>
+        <option value="chill">Chill</option>
+    </select>
+
+    <button onclick="generatePlan()">Generate Plan</button>
+
+    <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+.container {
+    margin-top: 80px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+}
