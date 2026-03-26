@@ -8,11 +8,15 @@
 
 <div class="container">
     <h1>🌍 AI Travel Itinerary Generator</h1>
+    <p class="subtitle">Plan your perfect trip with AI-powered recommendations</p>
 
-    <input type="text" id="destination" placeholder="Enter destination (Goa, Paris)">
-    
-    <input type="number" id="days" placeholder="Number of days">
-    
+    <label class="label">Destination</label>
+    <input type="text" id="destination" placeholder="Enter destination (Goa, Paris, Manali)">
+
+    <label class="label">Number of Days</label>
+    <input type="number" id="days" placeholder="Enter number of days">
+
+    <label class="label">Travel Type</label>
     <select id="type">
         <option value="">Select travel type</option>
         <option value="adventure">Adventure</option>
@@ -20,7 +24,7 @@
         <option value="chill">Chill</option>
     </select>
 
-    <button onclick="generatePlan()">Generate Plan</button>
+    <button onclick="generatePlan()">✨ Generate Plan</button>
 
     <div id="output"></div>
 </div>
